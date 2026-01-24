@@ -44,13 +44,16 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 6px;
-    background-color: #7C5CFF;
+    background-color: #727272;
     color: #0B0F1A;
+    box-shadow: 0 4px 15px #cacaca;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
     transition: all 0.7s ease;
-    background-color: #4e30e4;
+    background-color: #f1c842;
+    box-shadow: 0 8px 20px #e6b634;
 }
 
 .scores {
@@ -123,21 +126,21 @@ footer {
   text-align: center;
   color: white;
   height: auto;
-  width: 700px;
+  width: 400px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 40px;
   background: #0a0a0a;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 15px #000000;
+  box-shadow: 0 4px 15px #cacaca;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
 .match-section:hover {
   transform: translateY(-8px);
-  box-shadow: 0 8px 20px #000000;
+  box-shadow: 0 8px 20px #e6b634;
 }
 
 .match-info {
@@ -156,3 +159,12 @@ footer {
     text-align: center;
 }
 
+.image-box {
+    width: 300px;
+    max-width: 100%;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+}
