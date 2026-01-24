@@ -5,15 +5,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html {
+    min-height: 100%;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
 body {
-    background-color: #000000;
-    color: #e5e7eb;
+    background-color: transparent;
+    color: #ffffff;
 }
 
 header {
     padding: 20px;
     text-align: center;
-    background-color: #000000;
+    background-color: transparent;
+
     color: #EDEDFC;
 }
 
@@ -44,16 +51,16 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 6px;
-    background-color: #727272;
+    background-color: #22be2a;
     color: #0B0F1A;
-    box-shadow: 0 4px 15px #cacaca;
+    box-shadow: 0 4px 15px #000000;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
     transition: all 0.7s ease;
-    background-color: #f1c842;
-    box-shadow: 0 8px 20px #e6b634;
+    background-color: #0d8517;
+    box-shadow: 0 8px 20px #ffffff;
 }
 
 .scores {
