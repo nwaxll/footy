@@ -150,9 +150,9 @@ footer {
     font-size: 20px;
 }
 
-.prematch-text p {
-    size: 30px;
+.prematch-text {
+    size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    text-align: center;
 }
 
